@@ -3,7 +3,9 @@
 body{
     background: #F6F5F7;
     font-family: "Montserrat", sans-serif;
-    color: #3E363F;
+    color: #7c7b7c;
+    background-image: url(Img/fondo.jpg);
+    background-repeat: no-repeat;
 }
 
 #calculadora{
@@ -15,7 +17,7 @@ body{
 }
 
 #detalle{
-    background: #FF416C;
+    background: #00afce;
     /*Con estas tres lineas vamos hacer que los divs queden lado a lado*/
     width: 50%;
     height: 100%;
@@ -46,8 +48,8 @@ button{
     font-weight: bold;
     padding: 12px 45px;
     border-radius: 30px;
-    background-color: #FF416C;
-    border: 1PX solid #FF416C;
+    background-color: #00afce;
+    border: 1PX solid #00afce;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -58,8 +60,8 @@ button:active{
     transform: scale(0.95);
     box-shadow: 5px;
     background-color: #FFFFFF;
-    border: 1PX solid #FF416C;
-    color: #FF416C;
+    border: 1PX solid #00afce;
+    color: #00afce;
 }
 
 #calcular{
