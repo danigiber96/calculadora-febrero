@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background: #F6F5F7;
+    font-family: "Montserrat", sans-serif;
+    color: #3E363F;
+}
+
+#calculadora{
+    background: white;
+    /* Con estas tres lineas vamos hacer que los divs queden de lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detalle{
+    background: #FF416C;
+    /*Con estas tres lineas vamos hacer que los divs queden lado a lado*/
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: #F6F5F7;
+}
+
+.contenido{
+    /* Estas tres lineas van a centar el contenido verticalmente dentro de cada div */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+    padding-left: 5%;
+}
+
+
+input{
+    width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #EEE;
+}
+
+button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    border-radius: 30px;
+    background-color: #FF416C;
+    border: 1PX solid #FF416C;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 20ms ease-in;
+}
+
+button:active{
+    transform: scale(0.95);
+    box-shadow: 5px;
+    background-color: #FFFFFF;
+    border: 1PX solid #FF416C;
+    color: #FF416C;
+}
+
+#calcular{
+    margin-top: 10px;
+}
+
+#contenedor{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontal */
+    position: absolute;
+    inset: 0;
+    margin: auto; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.resutado{
+    color: #0A81D1;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+#flu{
+    color: #0A81D1;
+    font-size: 200%;
+}
+
+#man{
+    margin-top: -8%;
+    color: #0A81D1;
+    font-size: 200%;
+}
+
+.texto2{
+margin-top: 10px;
+}
+
+.texto3{
+    margin-top: 10px;
+}
