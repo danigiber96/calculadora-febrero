@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
     <head>
-        <title>Calculadora de Hidratación</title>
         <meta charset="UTF-8" />
+        <title>Calculadora de Hidratación</title>
         <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
     </head>
 
     <body>       
-        <div id="contenedor">
-            <div id="calculadora">
+        <main id="contenedor">
+            <section id="calculadora">
                 <div class="contenido">
-                    <h1>Hidratación Basal</h1>
-                    <p class="item resultado" id="flu"><b>71cc/hr</b></p>
-                    <p class="item resultado" id="man"><b>m+m/2 : 105cc/hr</b></p>
-                    <input class="item" id="peso" type="number" placeholder="Ingresa peso en kg"/>
-                    <p class="item" id="error">* Debe completar todos los datos</p>
+                    <h1 class="titulo">Hidratación Basal</h1>
+                    <p class="item resultado" id="flu"></p>
+                    <p class="item resultado" id="man"></p>
+                    <p id="sup" style="display: none;"></p>
+                    <input class="item" id="peso" type="number" placeholder="Ingresar un peso en kg"/>
+                    <p class="item" id="error">* DEBE COMPLETAR LOS DATOS CORRECTAMENTE *</p>
                     <button class="item" id="calcular">Calcular</button>
                 </div>    
-            </div>
+            </section>
 
-            <div id="detalle">
-                <div class="contenido">
-                    <h1>¿Como se calcula?</h1>
+            <aside id="detalle">
+                <section class="contenido">
+                    <h1>¿Cómo se calcula?</h1>
                     <ul>
                         <li class="texto1">De 0 a 10kg, se calcula 100cc por cada kg.</li>
                         <li class="texto2">Se suman 50cc por cada kg de peso por arriba de 10kg, hasta 20kg.</li>
                         <li class="texto3">De 20kg para arriba, se suman 20cc por cada kg adicional.</li>
                     </ul>
-                </div>
-            </div>
-        </div>
+                </section>
+            </aside>
+        </main>
        
     </body>
 </html>

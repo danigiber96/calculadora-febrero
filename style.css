@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
-    background: #F6F5F7;
+    background: #e7fbff;
     font-family: "Montserrat", sans-serif;
     color: #7c7b7c;
-    background-image: url(Img/fondo.jpg);
+    background-image: url(Img/doctor-crossing-arms-while-holding-stethoscope-white-coat.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 150%;
+}
+
+.titulo{
+    font-size: 200%
 }
 
 #calculadora{
@@ -23,6 +33,8 @@ body{
     height: 100%;
     float: left;
     color: #F6F5F7;
+    background-image: url(Img/fondo.jpg);
+    background-repeat: no-repeat;
 }
 
 .contenido{
@@ -41,6 +53,7 @@ input{
     padding: 12px 15px;
     border: none;
     background-color: #EEE;
+    margin-top: 10px;
 }
 
 button{
@@ -98,12 +111,22 @@ button:active{
 #flu{
     color: #0A81D1;
     font-size: 200%;
+    font-weight: 600;
 }
 
 #man{
     margin-top: -8%;
     color: #0A81D1;
     font-size: 200%;
+    font-weight: 600;
+}
+
+#sup{
+    margin-top: 0%;
+    color: #0A81D1;
+    font-size: 200%;
+    font-weight: 600;
+
 }
 
 .texto2{
@@ -113,3 +136,4 @@ margin-top: 10px;
 .texto3{
     margin-top: 10px;
 }
+
