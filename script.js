@@ -1,5 +1,5 @@
 // // Manipulación del DOM
-// Hacemos el llamados a los id del html para su uso en la función
+// Hacemos el llamado a los id del html para su uso en la función
 const CALCULAR = document.getElementById('calcular');
 const ERROR = document.getElementById('error');
 const FLU = document.getElementById('flu');
